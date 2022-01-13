@@ -1,0 +1,198 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background: #1d1d23;
+}
+.container{
+   display: flex;
+   width: 92%;
+   margin: 30px auto;
+   margin-bottom: 200px;
+}
+.navbar{
+    width: 50%;
+    margin-left: 200px;
+}
+.navbar a{
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2px 10px;
+    font-weight: 500;
+}
+.logo{
+    width: 50%;
+}
+.logo a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #e58f00;
+    font-weight: 500;
+}
+.fas{
+    font-size: 25px;
+    color: #e58f00;
+}
+.active{
+    color: #e58f00 !important;
+}
+.navbar a:hover{
+    color: #e58f00;
+    border: 1px solid #e58f00;
+    border-radius: 5px;
+}
+.haif{
+    width: 50%;
+}
+.haif img{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+.haif h1{
+    font-size: 50px;
+    color: #e58f00;
+    letter-spacing: 1px;
+}
+.haif p{
+    font-size: 17px;
+    width: 80%;
+    color: #fff;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.orange{
+    padding: 10px 30px;
+    color: rgb(15, 15, 15);
+    background: #e58f00;
+    border-radius: 5px;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Service Area Strat ----  */
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.row img{
+    width: 50%;
+    margin-left: 90px;
+}
+.card{
+    box-shadow: 10px 10px 30px #30303a;
+    margin-right: 30px;
+    background: #35353b;
+    border-radius: 30px;
+    height: 400px;
+    margin-left: 15px;
+}
+.card h2{
+    font-size: 30px;
+    color: #e58f00;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.card p{
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: justify;
+}
+.area h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 100px;
+    margin-top: 200px;
+
+}
+
+span{
+    color: #e58f00;
+}
+.gallery{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.card-1{
+    border-radius: 30px;
+}
+.gallery img{
+    width: 90%;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.area h3{
+    font-size: 28px;
+    margin-left: 19px;
+    color: #e58f00;
+}
+.area p{
+    width: 90%;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 19px;
+    color: #fff;
+}
+.background{
+    background-image: url(img/meal/background.png);
+    background-size: cover;
+    margin-top: 200px;
+}
+.haif h2{
+    font-size: 50px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.foot-img img{
+    width: 250px;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+
+.icon{
+    margin-left: 620px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.fab{
+    display: flex;
+    font-size: 35px;
+    text-align: center;
+    margin-right: 35px;
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+}
+footer{
+    background: #0a091ac9;
+}
+.container{
+    display: flex;
+}
+.box-1{
+
+    order: 1;
+    width: 200px;
+    border: 2px solid red;
+}
+.box-2{
+    order: 1;
+    flex-grow: 1;
+}
